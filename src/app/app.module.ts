@@ -8,6 +8,7 @@ import { UsPublicComponent } from './us-public/us-public.component';
 import { UserInfoComponent } from './user-info/user-info.component';
 import { ProductComponent } from './product/product.component';
 import { UserDataComponent } from './user-data/user-data.component';
+import { TodoComponent } from './todo/todo.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { UserDataComponent } from './user-data/user-data.component';
     UserInfoComponent,
     ProductComponent,
     UserDataComponent,
+    TodoComponent,
   
   ],
   imports: [
