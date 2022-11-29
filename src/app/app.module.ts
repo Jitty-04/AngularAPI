@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { PassengerComponent } from './passenger/passenger.component';
 import { UsPublicComponent } from './us-public/us-public.component';
 import { UserInfoComponent } from './user-info/user-info.component';
+import { ProductComponent } from './product/product.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { UserInfoComponent } from './user-info/user-info.component';
     PassengerComponent,
     UsPublicComponent,
     UserInfoComponent,
+    ProductComponent,
   
   ],
   imports: [
