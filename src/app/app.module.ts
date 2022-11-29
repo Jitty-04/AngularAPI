@@ -9,6 +9,7 @@ import { UserInfoComponent } from './user-info/user-info.component';
 import { ProductComponent } from './product/product.component';
 import { UserDataComponent } from './user-data/user-data.component';
 import { TodoComponent } from './todo/todo.component';
+import { QuotesComponent } from './quotes/quotes.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { TodoComponent } from './todo/todo.component';
     ProductComponent,
     UserDataComponent,
     TodoComponent,
+    QuotesComponent,
   
   ],
   imports: [
