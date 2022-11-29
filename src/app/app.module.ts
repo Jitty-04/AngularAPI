@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PassengerComponent } from './passenger/passenger.component';
 import { UsPublicComponent } from './us-public/us-public.component';
+import { ApiPublicComponent } from './api-public/api-public.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PassengerComponent,
-    UsPublicComponent
+    UsPublicComponent,
+    ApiPublicComponent
   ],
   imports: [
     BrowserModule,
